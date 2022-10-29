@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Top Section -->
+    <div class="intro">
+        <div class="container">
+            <h1 class="text">
+                Ninja Quiz
+            </h1>
+        </div>
+    </div>
+
+    <!-- Quiz section -->
+    <div class="quiz">
+        <div class="container">
+            <h1 class="second">On with the questions</h1>
+            <form class="quiz-form">
+                <div>
+                    <p class="question-text">1.What are you currently doing</p>
+                    <div class="form-check">
+                       <input type="radio" name="q1" value="A" checked>
+                       <label class="form-check-label">Nothing</label> 
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q1" value="B" >
+                        <label class="form-check-label">Something</label> 
+                     </div>
+                </div>
+                
+                <div>
+                    <p class="question-text">2.What is your name</p>
+                    <div class="form-check">
+                       <input type="radio" name="q2" value="A" checked>
+                       <label class="form-check-label">Adnan</label> 
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q2" value="B" >
+                        <label class="form-check-label">Badnan</label> 
+                     </div>
+                </div>
+
+                <div>
+                    <p class="question-text">3.What is your branch</p>
+                    <div class="form-check">
+                       <input type="radio" name="q3" value="A" checked>
+                       <label class="form-check-label">CSE</label> 
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q3" value="B" >
+                        <label class="form-check-label">ECE</label> 
+                     </div>
+                </div>
+
+                <div>
+                    <p class="question-text">4.How much is your income</p>
+                    <div class="form-check">
+                       <input type="radio" name="q4" value="A" checked>
+                       <label class="form-check-label">father money</label> 
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q4" value="B" >
+                        <label class="form-check-label">0</label> 
+                     </div>
+                </div>
+               <button class="button">
+                Submit
+               </button>
+            </form>
+        </div>
+    </div>
+    <!-- Section for containing the result of the Quiz.. -->
+    <div class="result ">
+       <h1 class="finalResult">Your Score is -  </h1>
+    </div>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</body>
+
+</html>
